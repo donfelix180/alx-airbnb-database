@@ -125,5 +125,15 @@ Supports communication between users.
 ## **Constraints & Notes**
 
 - All primary keys are UUIDs and indexed for performance.  
-- ENUM types e
+- ENUM types enforce valid values for `role`, `status`, and `payment_method`.  
+- Foreign keys maintain referential integrity across tables.  
+- Non-null constraints ensure required fields are always populated.  
+- Rating in Reviews is limited between 1 and 5.  
+
+---
+
+## **Credits**
+
+© 2025 ALX. All rights reserved.  
+This schema was designed to meet ALX project requirements for the Airbnb database.
 
